@@ -1,2 +1,2 @@
 # Javascript--hitesh
-A javascript repo..
+A javascript repositery covered by Hitesh Choudhury ,helpful for beginer Web Developer

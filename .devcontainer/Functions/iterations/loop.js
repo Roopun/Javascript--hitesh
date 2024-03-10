@@ -24,3 +24,42 @@ map.set('AUS',"Australia");
 for(const[key,Value] of map){
     console.log(key+":-"+Value);
 }
+
+//for in
+const myobj ={
+    js:'Javascript',
+    cpp:'C++',
+    rb:'Ruby'
+}
+for(const key in myobj){
+    console.log(myobj[key])
+}
+
+//for each 
+const coding= ["js","c","c++","Kotlin"];
+coding.forEach(function (element){
+    console.log(element);
+})
+
+function printme(item){
+    console.log(item);
+}
+coding.forEach(printme);
+
+const mycoding =[
+    {
+        lang:"javascript",
+        langfile:"js"
+    },
+    {
+        lang:"java",
+        langfile:"java"
+    },
+    {
+        lang:"python",
+        langfile:"py"
+    }
+]
+mycoding.forEach((Value) =>{
+    console.log(Value.lang);
+})
